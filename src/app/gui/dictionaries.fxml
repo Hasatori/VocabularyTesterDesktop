@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="528.0" minWidth="10.0" prefWidth="350.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="645.0" minWidth="10.0" prefWidth="350.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="148.0" minHeight="0.0" prefHeight="140.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="267.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="267.0" minHeight="10.0" prefHeight="259.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="528.0" text="Slovníky" />
+      <Label fx:id="dictionaryName" alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="579.0" GridPane.columnIndex="1" />
+      <TableView fx:id="dictionariesTable" maxWidth="530.0" prefHeight="267.0" prefWidth="530.0" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="25.0" right="25.0" />
+         </GridPane.margin>
+      </TableView>
+      <TableView fx:id="vocabulariesTable" prefHeight="267.0" prefWidth="421.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="25.0" right="25.0" />
+         </GridPane.margin>
+      </TableView>
+      <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="58.0" prefWidth="500.0" spacing="130.0" GridPane.rowIndex="1">
+         <children>
+            <Button fx:id="deleteDictionaryButton" mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" text="Vymazat">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="addDictionary" mnemonicParsing="false" text="Přidat" />
+            <Button fx:id="editDictionaryButton" mnemonicParsing="false" text="Editovat">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="58.0" prefWidth="500.0" spacing="130.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Button fx:id="deleteVocabularyButton" mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" text="Vymazat">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="addVocabulary" mnemonicParsing="false" text="Přidat" />
+            <Button fx:id="editVocabularyButton" mnemonicParsing="false" text="Editovat">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</GridPane>

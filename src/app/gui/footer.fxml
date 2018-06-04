@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<TextField alignment="CENTER" editable="false" prefHeight="107.0" prefWidth="616.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #2574A9;" text="Copyright Oldřich Hradil 2018 " xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <font>
+      <Font name="Arial Bold" size="14.0" />
+   </font>
+</TextField>

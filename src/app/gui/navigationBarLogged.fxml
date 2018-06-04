@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="48.0" prefWidth="840.0" style="-fx-background-color: #2574A9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField alignment="CENTER" editable="false" prefHeight="47.0" prefWidth="251.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: transparent;" text="Zkoušení slovíček">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Button fx:id="dictionaries" mnemonicParsing="false" prefHeight="45.0" prefWidth="134.0" style="-fx-background-color: transparent; -fx-border-width: 0 1 0 1; -fx-border-color: #333;" text="Vaše slovníky" textFill="#ffffffcc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="testingSessions" mnemonicParsing="false" prefHeight="45.0" prefWidth="137.0" style="-fx-background-color: transparent; -fx-border-width: 0 1 0 1; -fx-border-color: #333;" text="Procvičování" textFill="#ffffffcc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="45.0" prefWidth="104.0" style="-fx-background-color: transparent; -fx-border-width: 0 1 0 1; -fx-border-color: #333;" text="Odhlásit se" textFill="#ffffffcc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</HBox>

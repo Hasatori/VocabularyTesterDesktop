@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="43.0" prefWidth="448.0" text="Přihlášení" textFill="#2574a9">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin>
+      </Label>
+      <Label maxWidth="300.0" prefHeight="17.0" prefWidth="432.0" text="Email">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="emailTextField" maxWidth="300.0" promptText="Vložte email" text="hradil.o@email.cz">
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin></TextField>
+      <Label maxWidth="300.0" prefHeight="17.0" prefWidth="438.0" text="Heslo">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <PasswordField fx:id="passwordTextField" maxWidth="300.0" text="MnP0Gw">
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" />
+         </VBox.margin>
+      </PasswordField>
+      <Button fx:id="login" maxWidth="100.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-color: grey; -fx-border-radius: 5px;" text="Přihlásit">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" right="200.0" top="20.0" />
+         </VBox.margin>
+      </Button>
+      <Hyperlink fx:id="forgottenPassword" prefHeight="23.0" prefWidth="433.0" style="-fx-text-fill: #337AB7;" text="Zapomněli jste heslo?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="50.0" left="200.0" right="200.0" top="5.0" />
+         </VBox.margin>
+      </Hyperlink>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
